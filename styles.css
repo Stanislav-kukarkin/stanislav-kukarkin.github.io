@@ -650,8 +650,14 @@ header nav {
 }
 
 @media (max-width: 1050px) {
-  .diagonal-background::before {
-    background-position-x: 0;
+  .image2 {
+    top: auto;
+    bottom: 30vh;
+    left: 200px;
+  }
+
+  .pricing-card {
+    height: 50vh;
   }
 }
 
@@ -663,6 +669,10 @@ header nav {
 }
 
 @media (max-width: 800px) {
+  .diagonal-background::before {
+    background-position-x: 0;
+  }
+
   .header-content {
     position: relative;
   }
@@ -727,7 +737,7 @@ header nav {
   }
 
   .pricing-card {
-    height: 15vh;
+    height: 20vh;
   }
 
   .blog .header {
