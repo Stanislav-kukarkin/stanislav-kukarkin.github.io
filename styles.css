@@ -777,6 +777,10 @@ header nav {
 }
 
 @media (max-width: 750px) {
+  .fullscreen-video {
+    display: none;
+  }
+
   .image1 {
     top: 60vh;
   }
